@@ -10,7 +10,7 @@ It is based on a likelihood maximization procedure and it allows :
 - To draw light curves 
 
 The code is written in C++ in an Object-Oriented Programming (OOP) way.
-We use library provided by [ROOT](href="http://root.cern.ch/drupal/)'s
+We use libraries provided by [ROOT](href="http://root.cern.ch/drupal/)'s
 framework, [MINUIT2](http://seal.web.cern.ch/seal/MathLibs/Minuit2/html/)
 and the best algorithms for numerical integration and interpolation 
 from the GNU Scientific Library ([GSL](http://www.gnu.org/software/gsl/)).
