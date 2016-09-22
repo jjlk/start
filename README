@@ -1,0 +1,21 @@
+START provides tools to perform a full analysis with H.E.S.S. data.
+It is based on a likelihood maximization procedure and it allows :
+ 
+- To find the best estimation for the parameters of an hypothesis-model 
+- To compute and draw confidence intervals 
+- To draw likehood as a function of one parameter 
+- To draw informations about your data set 
+- To draw informations about the IRF (used or not) 
+- To draw the main spectrum (spectrum, points, butterfly and residuals) 
+- To draw light curves 
+
+The code is written in C++ in an Object-Oriented Programming (OOP) way.
+We use library provided by [ROOT](href="http://root.cern.ch/drupal/)'s
+framework, [MINUIT2](http://seal.web.cern.ch/seal/MathLibs/Minuit2/html/)
+and the best algorithms for numerical integration and interpolation 
+from the GNU Scientific Library ([GSL](http://www.gnu.org/software/gsl/)).
+
+START was initially developped at [APC](http://www.apc.univ-paris7.fr/APC_CS/) by:
+- [Julien Lefaucheur](https://github.com/jjlk)
+- Vincent Maradon
+- Santiago Pita
